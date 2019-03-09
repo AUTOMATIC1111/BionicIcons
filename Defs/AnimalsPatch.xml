@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BionicIconsTextureDef>
+    <defName>animalBionic</defName>
+    <texture>Things/Item/BodyPart/AnimalBodyPart_bionic</texture>
+    <color>(113,107,75)</color>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>animalOrgan</defName>
+    <texture>Things/Item/BodyPart/AnimalBodyPart_organ</texture>
+    <color>(113,107,75)</color>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>animalProsthetic</defName>
+    <texture>Things/Item/BodyPart/AnimalBodyPart_prosthetic</texture>
+    <color>(0.78,0.63,0.51)</color>
+  </BionicIconsTextureDef>
+  
+  <BionicIconsIconDef><defName>AnimalJaw</defName><bodyPart>AnimalJaw</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Beak</defName><bodyPart>Beak</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>TurtleBeak</defName><bodyPart>TurtleBeak</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>InsectMouth</defName><bodyPart>InsectMouth</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+</Defs>

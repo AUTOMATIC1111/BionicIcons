@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BionicIconsTextureDef>
+    <defName>epoeBionicPart</defName>
+    <texture>Things/Item/BodyPart/BionicPart</texture>
+    <color>(184,168,123)</color>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeAdvancedPart</defName>
+    <texture>Things/Item/BodyPart/AdvancedPart</texture>
+    <color>(0.71,0.59,0.9)</color>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeGlitterworldPart</defName>
+    <texture>Things/Item/BodyPart/GlitterworldPart</texture>
+    <color>(140,150,132)</color>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>bionicAndSurgeryBionic2</defName>
+    <texture>Things/Item/BodyPart/Bionic2</texture>
+    <color>(0.71,0.59,0.9)</color>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>bionicAndSurgeryOrgan</defName>
+    <texture>Things/Item/BodyPart/Organ</texture>
+    <color>(1,1,1)</color>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeSimplePart</defName>
+    <texture>Things/Item/BodyPart/SimplePart</texture>
+    <color>(105,107,131)</color>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeBasicProsthesis</defName>
+    <texture>Things/Item/BodyPart/BasicProsthesis</texture>
+    <color>(0.78,0.63,0.51)</color>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeSurrogatePart</defName>
+    <texture>Things/Item/BodyPart/SurrogatePart</texture>
+    <color>(165,98,57)</color>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeSyntheticPart</defName>
+    <texture>Things/Item/BodyPart/SyntheticPart</texture>
+    <color>(0.71,0.59,0.9)</color>
+  </BionicIconsTextureDef>
+  
+  
+  <BionicIconsIconDef><defName>RibPainkiller</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/Painstopper</texture><thingDefNameContains>Painkiller</thingDefNameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RibAdrenaline</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibAdrenaline</texture><thingDefNameContains>Adrenaline</thingDefNameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RibMedical</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibMedical</texture><thingDefNameContains>Medical</thingDefNameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RibDrugged</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibDrugged</texture><thingDefNameContains>Drugged</thingDefNameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Ribcage</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/Ribcage</texture></BionicIconsIconDef>
+
+</Defs>

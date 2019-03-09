@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingSetMakerDef>
+    <defName>AllBodyParts</defName>
+    <root Class="BionicIcons.ThingSetMaker_AllBodyParts" />
+  </ThingSetMakerDef>
+
+</Defs>
