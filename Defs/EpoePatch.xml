@@ -47,10 +47,10 @@
   </BionicIconsTextureDef>
   
   
-  <BionicIconsIconDef><defName>RibPainkiller</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/Painstopper</texture><thingDefNameContains>Painkiller</thingDefNameContains></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>RibAdrenaline</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibAdrenaline</texture><thingDefNameContains>Adrenaline</thingDefNameContains></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>RibMedical</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibMedical</texture><thingDefNameContains>Medical</thingDefNameContains></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>RibDrugged</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibDrugged</texture><thingDefNameContains>Drugged</thingDefNameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RibPainkiller</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/Painstopper</texture><nameContains>Painkiller</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RibAdrenaline</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibAdrenaline</texture><nameContains>Adrenaline</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RibMedical</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibMedical</texture><nameContains>Medical</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RibDrugged</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibDrugged</texture><nameContains>Drugged</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Ribcage</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/Ribcage</texture></BionicIconsIconDef>
 
 </Defs>

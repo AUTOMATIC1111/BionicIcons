@@ -15,6 +15,9 @@ namespace BionicIcons
 
         static BionicIcons()
         {
+            HashSet<ThingDef> processed = new HashSet<ThingDef>();
+            List<BionicIconsIconDef> directReplacements = new List<BionicIconsIconDef>();
+
             foreach (BionicIconsTextureDef def in DefDatabase<BionicIconsTextureDef>.AllDefs)
             {
                 List<BionicIconsTextureDef> list;
@@ -29,21 +32,31 @@ namespace BionicIcons
 
             foreach (BionicIconsIconDef def in DefDatabase<BionicIconsIconDef>.AllDefs)
             {
-                if (def.bodyPart == null) continue;
-                BodyPartDef bodyPart = DefDatabase<BodyPartDef>.GetNamedSilentFail(def.bodyPart);
-                if (bodyPart == null) continue;
+                if (def.bodyPart != null)
+                {
+                    BodyPartDef bodyPart = DefDatabase<BodyPartDef>.GetNamedSilentFail(def.bodyPart);
+                    if (bodyPart == null) continue;
 
+                    List<BionicIconsIconDef> list;
+                    if (!replacementsIcon.TryGetValue(bodyPart, out list))
+                    {
+                        list = new List<BionicIconsIconDef>();
+                        replacementsIcon.Add(bodyPart, list);
+                    }
 
-                List<BionicIconsIconDef> list;
-                if (! replacementsIcon.TryGetValue(bodyPart, out list)) {
-                    list = new List<BionicIconsIconDef>();
-                    replacementsIcon.Add(bodyPart, list);
+                    list.Add(def);
                 }
+                else if (def.thingDef != null)
+                {
+                    ThingDef thingDef = DefDatabase<ThingDef>.GetNamedSilentFail(def.thingDef);
+                    if (thingDef == null) continue;
 
-                list.Add(def);
+                    if (processed.Contains(thingDef)) continue;
+                    replace(thingDef, def.texture, Color.white);
+                    processed.Add(thingDef);
+                }
             }
 
-            HashSet<ThingDef> processed = new HashSet<ThingDef>();
             foreach (RecipeDef recipe in DefDatabase<RecipeDef>.AllDefs)
             {
                 if (recipe.appliedOnFixedBodyParts.NullOrEmpty()) continue;
@@ -54,10 +67,7 @@ namespace BionicIcons
                     {
                         foreach (ThingDef def in ing.filter.AllowedThingDefs)
                         {
-                            if (!def.isTechHediff) continue;
-                            if (def.graphicData == null) continue;
                             if (processed.Contains(def)) continue;
-
                             if (processDef(recipe, bodyPart, def))
                             {
                                 processed.Add(def);
@@ -70,6 +80,9 @@ namespace BionicIcons
 
         private static bool processDef(RecipeDef recipe, BodyPartDef bodyPart, ThingDef def)
         {
+            if (!def.isTechHediff) return false;
+            if (def.graphicData == null) return false;
+
             List<BionicIconsTextureDef> colors;
             if (!replacements.TryGetValue(def.graphicData.texPath, out colors)) return false;
 
@@ -79,9 +92,9 @@ namespace BionicIcons
             string tex = null;
             foreach (BionicIconsIconDef option in icons)
             {
-                if (option.thingDef != null && def != option.thingDef) continue;
-                if (option.thingDefNameContains != null && !def.defName.Contains(option.thingDefNameContains)) continue;
-                if (recipe.addsHediff!=null) {
+                if (option.nameContains != null && !def.defName.Contains(option.nameContains)) continue;
+                if (recipe.addsHediff != null)
+                {
                     bool isSolid = recipe.addsHediff.addedPartProps != null && recipe.addsHediff.addedPartProps.solid;
 
                     if (option.SolidOnly && !isSolid) continue;
@@ -96,22 +109,26 @@ namespace BionicIcons
             Color color = Color.white;
             foreach (BionicIconsTextureDef option in colors)
             {
-                if (option.thingDefNameContains != null && !def.defName.Contains(option.thingDefNameContains)) continue;
+                if (option.nameContains != null && !def.defName.Contains(option.nameContains)) continue;
 
                 color = option.color;
                 break;
             }
 
+            replace(def, tex, color);
+            return true;
+        }
+
+        private static void replace(ThingDef def, string tex, Color color)
+        {
             def.graphicData.graphicClass = typeof(Graphic_Single);
             def.graphicData.drawSize = new Vector2(1.0f, 1.0f);
             def.graphicData.color = color;
             def.graphicData.texPath = tex;
-            
+
             graphicDataInit.Invoke(def.graphicData, new object[] { });
             def.uiIcon = def.graphicData.Graphic.MatSingle.mainTexture as Texture2D;
             def.uiIconColor = color;
-
-            return true;
         }
     }
 }

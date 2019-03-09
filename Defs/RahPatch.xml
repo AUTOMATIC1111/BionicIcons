@@ -8,7 +8,7 @@
   <BionicIconsTextureDef>
     <defName>rahBionicArchotech</defName>
     <texture>Things/Item/BodyPart/Bionic2</texture>
-    <thingDefNameContains>Archotech</thingDefNameContains>
+    <nameContains>Archotech</nameContains>
     <color>(140,150,132)</color>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>

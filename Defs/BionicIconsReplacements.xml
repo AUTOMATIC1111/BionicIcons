@@ -31,24 +31,28 @@
   <BionicIconsIconDef><defName>Foot</defName><bodyPart>Foot</bodyPart><texture>BionicIcons/BodyParts/Foot</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Jaw</defName><bodyPart>Jaw</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Clavicle</defName><bodyPart>Clavicle</bodyPart><texture>BionicIcons/BodyParts/Clavicle</texture></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>AnimalLeg</defName><bodyPart>Leg</bodyPart><texture>BionicIcons/BodyParts/AnimalLeg</texture><thingDefNameContains>Animal</thingDefNameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AnimalLeg</defName><bodyPart>Leg</bodyPart><texture>BionicIcons/BodyParts/AnimalLeg</texture><nameContains>Animal</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Leg</defName><bodyPart>Leg</bodyPart><texture>BionicIcons/BodyParts/Leg</texture></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>PowerArm</defName><bodyPart>Shoulder</bodyPart><texture>BionicIcons/BodyParts/PowerArm</texture><thingDefNameContains>Power</thingDefNameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>PowerArm</defName><bodyPart>Shoulder</bodyPart><texture>BionicIcons/BodyParts/PowerArm</texture><nameContains>Power</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Shoulder</defName><bodyPart>Shoulder</bodyPart><texture>BionicIcons/BodyParts/Shoulder</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Arm</defName><bodyPart>Arm</bodyPart><texture>BionicIcons/BodyParts/Shoulder</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Ear</defName><bodyPart>Ear</bodyPart><texture>BionicIcons/BodyParts/Ear</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Spine</defName><bodyPart>Spine</bodyPart><texture>BionicIcons/BodyParts/Spine</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Stomach</defName><bodyPart>Stomach</bodyPart><texture>BionicIcons/BodyParts/Stomach</texture></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>PowerClaw</defName><bodyPart>Hand</bodyPart><texture>BionicIcons/BodyParts/Claw</texture><thingDefNameContains>Claw</thingDefNameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>PowerClaw</defName><bodyPart>Hand</bodyPart><texture>BionicIcons/BodyParts/Claw</texture><nameContains>Claw</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Hand</defName><bodyPart>Hand</bodyPart><texture>BionicIcons/BodyParts/Hand</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Eye</defName><bodyPart>Eye</bodyPart><texture>BionicIcons/BodyParts/Eye</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Torso</defName><bodyPart>Torso</bodyPart><texture>BionicIcons/BodyParts/Torso</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Pelvis</defName><bodyPart>Pelvis</bodyPart><texture>BionicIcons/BodyParts/Pelvis</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Tail</defName><bodyPart>Tail</bodyPart><texture>BionicIcons/BodyParts/Tail</texture></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>Painstopper</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Painstopper</texture><thingDef>Painstopper</thingDef></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>Joywire</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Joywire</texture><thingDef>Joywire</thingDef></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Painstopper</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Painstopper</texture><nameContains>Painstopper</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Joywire</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Joywire</texture><nameContains>Joywire</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>BrainMicrochip</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Microchip</texture><SolidOnly>true</SolidOnly></BionicIconsIconDef>
   <BionicIconsIconDef><defName>BrainSoft</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Brain</texture><SoftOnly>true</SoftOnly></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AnimalJaw</defName><bodyPart>AnimalJaw</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Beak</defName><bodyPart>Beak</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>TurtleBeak</defName><bodyPart>TurtleBeak</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>InsectMouth</defName><bodyPart>InsectMouth</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
   
-
+  <BionicIconsIconDef><defName>ScytherBlade</defName><thingDef>ScytherBlade</thingDef><texture>BionicIcons/BodyParts/ScytherBlade</texture></BionicIconsIconDef>
 </Defs>

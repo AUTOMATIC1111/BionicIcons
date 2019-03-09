@@ -16,8 +16,4 @@
     <color>(0.78,0.63,0.51)</color>
   </BionicIconsTextureDef>
   
-  <BionicIconsIconDef><defName>AnimalJaw</defName><bodyPart>AnimalJaw</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>Beak</defName><bodyPart>Beak</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>TurtleBeak</defName><bodyPart>TurtleBeak</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>InsectMouth</defName><bodyPart>InsectMouth</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
 </Defs>

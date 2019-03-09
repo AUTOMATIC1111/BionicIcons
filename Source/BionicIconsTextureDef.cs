@@ -11,6 +11,6 @@ namespace Verse
         public string texture;
         public Color color;
 
-        public string thingDefNameContains;
+        public string nameContains;
     }
 }
