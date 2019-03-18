@@ -4,35 +4,35 @@
   <BionicIconsTextureDef>
     <defName>AndroidTiersOrganblack</defName>
     <texture>Things/Item/Organblack</texture>
-    <color>(141,141,141)</color>
+    <replacement>BionicIcons/Boxes/AndroidProsthetic</replacement>
   </BionicIconsTextureDef>
   
   <!-- advanced replacements -->
   <BionicIconsTextureDef>
     <defName>AndroidTiersOrganwhite</defName>
     <texture>Things/Item/Organwhite</texture>
-    <color>(1,1,1)</color>
+    <replacement>BionicIcons/Boxes/AndroidBionic</replacement>
   </BionicIconsTextureDef>
   
-  <!-- cyber replacements -->
+  <!-- arcotech replacements -->
   <BionicIconsTextureDef>
     <defName>AndroidTiersOrgangold</defName>
     <texture>Things/Item/Organgold</texture>
-    <color>(140,150,132)</color>
+    <replacement>BionicIcons/Boxes/AndroidArchotech</replacement>
   </BionicIconsTextureDef>
   
   <!-- hydraulic replacements -->
   <BionicIconsTextureDef>
     <defName>AndroidTiersOrganorange</defName>
     <texture>Things/Item/Organorange</texture>
-    <color>(196,154,59)</color>
+    <replacement>BionicIcons/Boxes/AndroidProstheticAdvanced</replacement>
   </BionicIconsTextureDef>
   
   <!-- brain chips -->
   <BionicIconsTextureDef>
     <defName>AndroidTiersOrganPurple</defName>
     <texture>Things/Item/OrganPurple</texture>
-    <color>(140,150,132)</color>
+    <replacement>BionicIcons/Boxes/AndroidChip</replacement>
   </BionicIconsTextureDef>
   
   

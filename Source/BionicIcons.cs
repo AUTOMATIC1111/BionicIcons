@@ -3,6 +3,7 @@ using System.Reflection;
 using UnityEngine;
 using Verse;
 using System;
+using RimWorld;
 
 namespace BionicIcons
 {
@@ -52,7 +53,7 @@ namespace BionicIcons
                     if (thingDef == null) continue;
 
                     if (processed.Contains(thingDef)) continue;
-                    replace(thingDef, def.texture, Color.white);
+                    replace(thingDef, def.texture, Color.white, null);
                     processed.Add(thingDef);
                 }
             }
@@ -107,26 +108,47 @@ namespace BionicIcons
             if (tex == null) return false;
 
             Color color = Color.white;
+            BionicIconsTextureDef textureDef = null;
             foreach (BionicIconsTextureDef option in colors)
             {
                 if (option.nameContains != null && !def.defName.Contains(option.nameContains)) continue;
 
+                textureDef = option;
                 color = option.color;
                 break;
             }
 
-            replace(def, tex, color);
+            replace(def, tex, color, textureDef);
             return true;
         }
 
-        private static void replace(ThingDef def, string tex, Color color)
+        private static void replace(ThingDef def, string tex, Color color, BionicIconsTextureDef textureDef)
         {
-            def.graphicData.graphicClass = typeof(Graphic_Single);
-            def.graphicData.drawSize = new Vector2(1.0f, 1.0f);
-            def.graphicData.color = color;
-            def.graphicData.texPath = tex;
+            
+            if (textureDef != null)
+            {
+                Color clr = textureDef.color;
+
+                def.graphicData.graphicClass = typeof(Graphic_SingleWithMask);
+                def.graphicData.drawSize = new Vector2(1.0f, 1.0f);
+                def.graphicData.color = clr;
+                def.graphicData.texPath = textureDef.replacement;
+                def.graphicData.shaderType = ShaderTypeDefOf.CutoutComplex;
+                Graphic_SingleWithMask.maskPath = tex;
+                //def.graphicData.colorTwo = new Color(Math.Max(0, clr.r - 0.6f), Math.Max(0, clr.g - 0.6f), Math.Max(0, clr.b - 0.6f));
+                def.graphicData.colorTwo = new Color(0.25f, 0.25f, 0.25f);
+
+            }
+            else
+            {
+                def.graphicData.graphicClass = typeof(Graphic_Single);
+                def.graphicData.drawSize = new Vector2(1.0f, 1.0f);
+                def.graphicData.color = color;
+                def.graphicData.texPath = tex;
+            }
 
             graphicDataInit.Invoke(def.graphicData, new object[] { });
+            def.graphic = def.graphicData.Graphic;
             def.uiIcon = def.graphicData.Graphic.MatSingle.mainTexture as Texture2D;
             def.uiIconColor = color;
         }

@@ -5,27 +5,28 @@
   <BionicIconsTextureDef>
     <defName>CyberFaunaAnimArchoProt</defName>
     <texture>CF/AnimArchoProt</texture>
-    <color>(140,150,132)</color>
+    <replacement>BionicIcons/Boxes/AnimalArchotech</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>CyberFaunaAnimBionicOrg</defName>
     <texture>CF/AnimBionicOrg</texture>
-    <color>(184,168,123)</color>
+    <replacement>BionicIcons/Boxes/AnimalSurrogate</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>CyberFaunaAnimBionicProt</defName>
     <texture>CF/AnimBionicProt</texture>
+    <replacement>BionicIcons/Boxes/AnimalBionic</replacement>
     <color>(184,168,123)</color>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>CyberFaunaAnimSimpleProt</defName>
     <texture>CF/AnimSimpleProt</texture>
-    <color>(0.78,0.63,0.51)</color>
+    <replacement>BionicIcons/Boxes/AnimalProsthetic</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>CyberFaunaAnimWarProt</defName>
     <texture>CF/AnimWarProt</texture>
-    <color>(161,118,119)</color>
+    <replacement>BionicIcons/Boxes/AnimalBattle</replacement>
   </BionicIconsTextureDef>
   
   <BionicIconsIconDef><defName>CFBattleAniHead</defName><bodyPart>Head</bodyPart><texture>BionicIcons/BodyParts/Gear</texture><nameContains>CFBattleAni</nameContains></BionicIconsIconDef>

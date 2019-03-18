@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BionicIconsTextureDef>
+    <defName>glitterTechCyberneticOrgan</defName>
+    <texture>Things/Item/BodyPart/CyberneticOrgan</texture>
+    <replacement>BionicIcons/Boxes/Cyber</replacement>
+  </BionicIconsTextureDef>
+  
+</Defs>

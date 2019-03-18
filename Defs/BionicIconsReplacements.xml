@@ -4,22 +4,22 @@
   <BionicIconsTextureDef>
     <defName>bionic</defName>
     <texture>Things/Item/Health/HealthItemBionic</texture>
-    <color>(184,168,123)</color>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>archotech</defName>
     <texture>Things/Item/Health/HealthItemArchotech</texture>
-    <color>(140,150,132)</color>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>prosthetic</defName>
     <texture>Things/Item/Health/HealthItemProsthetic</texture>
-    <color>(0.78,0.63,0.51)</color>
+    <replacement>BionicIcons/Boxes/Prosthetic</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>natural</defName>
     <texture>Things/Item/Health/HealthItemNatural</texture>
-    <color>(1,1,1)</color>
+    <replacement>BionicIcons/Boxes/Default</replacement>
   </BionicIconsTextureDef>
   
   <!-- this is a list of actual textures to replace vanilla items -->
@@ -53,6 +53,9 @@
   <BionicIconsIconDef><defName>Beak</defName><bodyPart>Beak</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>TurtleBeak</defName><bodyPart>TurtleBeak</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>InsectMouth</defName><bodyPart>InsectMouth</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
-  
-  <BionicIconsIconDef><defName>ScytherBlade</defName><thingDef>ScytherBlade</thingDef><texture>BionicIcons/BodyParts/ScytherBlade</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Tibia</defName><bodyPart>Tibia</bodyPart><texture>BionicIcons/BodyParts/Tibia</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Sternum</defName><bodyPart>Sternum</bodyPart><texture>BionicIcons/BodyParts/Sternum</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Skull</defName><bodyPart>Skull</bodyPart><texture>BionicIcons/BodyParts/Skull</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Waist</defName><bodyPart>Waist</bodyPart><texture>BionicIcons/BodyParts/Waist</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>ReproductiveOrgans</defName><bodyPart>ReproductiveOrgans</bodyPart><texture>BionicIcons/BodyParts/ReproductiveOrgans</texture></BionicIconsIconDef>
 </Defs>

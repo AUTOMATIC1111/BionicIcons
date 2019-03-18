@@ -9,7 +9,8 @@ namespace Verse
     public class BionicIconsTextureDef : Def
     {
         public string texture;
-        public Color color;
+        public string replacement = "BionicIcons/Boxes/Default";
+        public Color color = new Color(1f,1f,1f);
 
         public string nameContains;
     }

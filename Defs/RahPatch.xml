@@ -3,27 +3,27 @@
   <BionicIconsTextureDef>
     <defName>rahBionic</defName>
     <texture>Things/Item/BodyPart/Bionic</texture>
-    <color>(184,168,123)</color>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>rahBionicArchotech</defName>
     <texture>Things/Item/BodyPart/Bionic2</texture>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
     <nameContains>Archotech</nameContains>
-    <color>(140,150,132)</color>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>rahBionic2</defName>
     <texture>Things/Item/BodyPart/Bionic2</texture>
-    <color>(0.71,0.59,0.9)</color>
+    <replacement>BionicIcons/Boxes/BionicAdvanced</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>rahOrgan</defName>
     <texture>Things/Item/BodyPart/Organ</texture>
-    <color>(1,1,1)</color>
+    <replacement>BionicIcons/Boxes/Default</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>rahSimple</defName>
     <texture>Things/Item/BodyPart/Simple</texture>
-    <color>(0.78,0.63,0.51)</color>
+    <replacement>BionicIcons/Boxes/ProstheticAdvanced</replacement>
   </BionicIconsTextureDef>
 </Defs>

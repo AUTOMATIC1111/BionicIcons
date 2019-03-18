@@ -3,17 +3,17 @@
   <BionicIconsTextureDef>
     <defName>animalBionic</defName>
     <texture>Things/Item/BodyPart/AnimalBodyPart_bionic</texture>
-    <color>(113,107,75)</color>
+    <replacement>BionicIcons/Boxes/AnimalBionic</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>animalOrgan</defName>
     <texture>Things/Item/BodyPart/AnimalBodyPart_organ</texture>
-    <color>(113,107,75)</color>
+    <replacement>BionicIcons/Boxes/Animal</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>animalProsthetic</defName>
     <texture>Things/Item/BodyPart/AnimalBodyPart_prosthetic</texture>
-    <color>(0.78,0.63,0.51)</color>
+    <replacement>BionicIcons/Boxes/AnimalProsthetic</replacement>
   </BionicIconsTextureDef>
   
 </Defs>

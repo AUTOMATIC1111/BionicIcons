@@ -3,49 +3,38 @@
   <BionicIconsTextureDef>
     <defName>epoeBionicPart</defName>
     <texture>Things/Item/BodyPart/BionicPart</texture>
-    <color>(184,168,123)</color>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>epoeAdvancedPart</defName>
     <texture>Things/Item/BodyPart/AdvancedPart</texture>
-    <color>(0.71,0.59,0.9)</color>
+    <replacement>BionicIcons/Boxes/BionicAdvanced</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>epoeGlitterworldPart</defName>
     <texture>Things/Item/BodyPart/GlitterworldPart</texture>
-    <color>(140,150,132)</color>
-  </BionicIconsTextureDef>
-  <BionicIconsTextureDef>
-    <defName>bionicAndSurgeryBionic2</defName>
-    <texture>Things/Item/BodyPart/Bionic2</texture>
-    <color>(0.71,0.59,0.9)</color>
-  </BionicIconsTextureDef>
-  <BionicIconsTextureDef>
-    <defName>bionicAndSurgeryOrgan</defName>
-    <texture>Things/Item/BodyPart/Organ</texture>
-    <color>(1,1,1)</color>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>epoeSimplePart</defName>
     <texture>Things/Item/BodyPart/SimplePart</texture>
-    <color>(105,107,131)</color>
+    <replacement>BionicIcons/Boxes/ProstheticAdvanced</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>epoeBasicProsthesis</defName>
     <texture>Things/Item/BodyPart/BasicProsthesis</texture>
-    <color>(0.78,0.63,0.51)</color>
+    <replacement>BionicIcons/Boxes/Prosthetic</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>epoeSurrogatePart</defName>
     <texture>Things/Item/BodyPart/SurrogatePart</texture>
-    <color>(165,98,57)</color>
+    <replacement>BionicIcons/Boxes/Surrogate</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>epoeSyntheticPart</defName>
     <texture>Things/Item/BodyPart/SyntheticPart</texture>
-    <color>(0.71,0.59,0.9)</color>
+    <replacement>BionicIcons/Boxes/Synthetic</replacement>
   </BionicIconsTextureDef>
-  
   
   <BionicIconsIconDef><defName>RibPainkiller</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/Painstopper</texture><nameContains>Painkiller</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>RibAdrenaline</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibAdrenaline</texture><nameContains>Adrenaline</nameContains></BionicIconsIconDef>
@@ -53,4 +42,5 @@
   <BionicIconsIconDef><defName>RibDrugged</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibDrugged</texture><nameContains>Drugged</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Ribcage</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/Ribcage</texture></BionicIconsIconDef>
 
+  <BionicIconsIconDef><defName>ScytherBlade</defName><thingDef>ScytherBlade</thingDef><texture>BionicIcons/Items/ScytherBlade</texture></BionicIconsIconDef>
 </Defs>
