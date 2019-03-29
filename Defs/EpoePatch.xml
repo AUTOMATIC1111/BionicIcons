@@ -43,4 +43,12 @@
   <BionicIconsIconDef><defName>Ribcage</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/Ribcage</texture></BionicIconsIconDef>
 
   <BionicIconsIconDef><defName>ScytherBlade</defName><thingDef>ScytherBlade</thingDef><texture>BionicIcons/Items/ScytherBlade</texture></BionicIconsIconDef>
+  
+  <!-- EPOE Replacement Expansion -->
+  <BionicIconsIconDef><defName>EpoeSkin</defName><bodyPart>Torso</bodyPart><texture>BionicIcons/BodyParts/Skin</texture><nameContains>Skin</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>EpoeRib</defName><bodyPart>Rib1</bodyPart><texture>BionicIcons/BodyParts/Ribcage</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>EpoeFinger</defName><bodyPart>Finger</bodyPart><texture>BionicIcons/BodyParts/Finger</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>EpoeToe</defName><bodyPart>Toe</bodyPart><texture>BionicIcons/BodyParts/Toe</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>EpoeRadius</defName><bodyPart>Radius</bodyPart><texture>BionicIcons/BodyParts/Tibia</texture></BionicIconsIconDef>
+
 </Defs>

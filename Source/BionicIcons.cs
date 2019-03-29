@@ -4,6 +4,7 @@ using UnityEngine;
 using Verse;
 using System;
 using RimWorld;
+using System.Linq;
 
 namespace BionicIcons
 {
@@ -31,11 +32,13 @@ namespace BionicIcons
                 list.Add(def);
             }
 
-            foreach (BionicIconsIconDef def in DefDatabase<BionicIconsIconDef>.AllDefs)
+            IEnumerable<BionicIconsIconDef> icons = DefDatabase<BionicIconsIconDef>.AllDefs;
+            icons = icons.OrderBy(x => x.nameContains == null ? 1 : 0).ThenBy(x => x.defName);
+            foreach (BionicIconsIconDef def in icons)
             {
-                if (def.bodyPart != null)
+                foreach (string bodyPartName in def.BodyParts())
                 {
-                    BodyPartDef bodyPart = DefDatabase<BodyPartDef>.GetNamedSilentFail(def.bodyPart);
+                    BodyPartDef bodyPart = DefDatabase<BodyPartDef>.GetNamedSilentFail(bodyPartName);
                     if (bodyPart == null) continue;
 
                     List<BionicIconsIconDef> list;
@@ -47,7 +50,8 @@ namespace BionicIcons
 
                     list.Add(def);
                 }
-                else if (def.thingDef != null)
+
+                if (def.thingDef != null)
                 {
                     ThingDef thingDef = DefDatabase<ThingDef>.GetNamedSilentFail(def.thingDef);
                     if (thingDef == null) continue;
