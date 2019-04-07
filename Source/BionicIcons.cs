@@ -131,17 +131,13 @@ namespace BionicIcons
             
             if (textureDef != null)
             {
-                Color clr = textureDef.color;
-
                 def.graphicData.graphicClass = typeof(Graphic_SingleWithMask);
                 def.graphicData.drawSize = new Vector2(1.0f, 1.0f);
-                def.graphicData.color = clr;
+                def.graphicData.color = textureDef.color;
                 def.graphicData.texPath = textureDef.replacement;
                 def.graphicData.shaderType = ShaderTypeDefOf.CutoutComplex;
                 Graphic_SingleWithMask.maskPath = tex;
-                //def.graphicData.colorTwo = new Color(Math.Max(0, clr.r - 0.6f), Math.Max(0, clr.g - 0.6f), Math.Max(0, clr.b - 0.6f));
-                def.graphicData.colorTwo = new Color(0.25f, 0.25f, 0.25f);
-
+                def.graphicData.colorTwo = textureDef.colorIcon;
             }
             else
             {
