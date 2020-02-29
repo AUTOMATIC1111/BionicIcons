@@ -61,4 +61,8 @@
   <BionicIconsIconDef><defName>Skull</defName><bodyPart>Skull</bodyPart><texture>BionicIcons/BodyParts/Skull</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Waist</defName><bodyPart>Waist</bodyPart><texture>BionicIcons/BodyParts/Waist</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>ReproductiveOrgans</defName><bodyPart>ReproductiveOrgans</bodyPart><texture>BionicIcons/BodyParts/ReproductiveOrgans</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>VenomTalon</defName><bodyPart>MiddleFingers</bodyPart><nameContains>Venom</nameContains><texture>BionicIcons/BodyParts/Claw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>VenomFangs</defName><bodyPart>Teeth</bodyPart><nameContains>Venom</nameContains><texture>BionicIcons/BodyParts/Fangs</texture></BionicIconsIconDef>
+  
+  
 </Defs>
