@@ -2,7 +2,8 @@
 <ModMetaData>
 	<name>Bionic icons</name>
 	<author>AUTOMATIC</author>
-	<supportedVersions><li>1.0</li></supportedVersions>
+	<supportedVersions><li>1.0</li><li>1.1</li></supportedVersions>
+	<packageId>automatic.bionicicons</packageId>
 	<description><![CDATA[Adds icons for body part boxes.
 ]]></description>
 </ModMetaData>

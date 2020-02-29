@@ -116,6 +116,7 @@ namespace BionicIcons
             foreach (BionicIconsTextureDef option in colors)
             {
                 if (option.nameContains != null && !def.defName.Contains(option.nameContains)) continue;
+                if(option.onlyForColor != BionicIconsTextureDef.colorMissing && option.onlyForColor != def.graphicData.color) continue;
 
                 textureDef = option;
                 color = option.color;
