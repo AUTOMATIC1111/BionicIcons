@@ -14,6 +14,7 @@ namespace BionicIcons
         static MethodInfo graphicDataInit = typeof(GraphicData).GetMethod("Init", BindingFlags.NonPublic | BindingFlags.Instance);
         static Dictionary<string, List<BionicIconsTextureDef>> replacements = new Dictionary<string, List<BionicIconsTextureDef>>();
         static Dictionary<BodyPartDef, List<BionicIconsIconDef>> replacementsIcon = new Dictionary<BodyPartDef, List<BionicIconsIconDef>>();
+        static Dictionary<BodyPartGroupDef, List<BionicIconsIconDef>> replacementsIconForGroups = new Dictionary<BodyPartGroupDef, List<BionicIconsIconDef>>();
 
         static BionicIcons()
         {
@@ -39,16 +40,30 @@ namespace BionicIcons
                 foreach (string bodyPartName in def.BodyParts())
                 {
                     BodyPartDef bodyPart = DefDatabase<BodyPartDef>.GetNamedSilentFail(bodyPartName);
-                    if (bodyPart == null) continue;
-
-                    List<BionicIconsIconDef> list;
-                    if (!replacementsIcon.TryGetValue(bodyPart, out list))
+                    if (bodyPart != null)
                     {
-                        list = new List<BionicIconsIconDef>();
-                        replacementsIcon.Add(bodyPart, list);
+                        List<BionicIconsIconDef> list;
+                        if (!replacementsIcon.TryGetValue(bodyPart, out list))
+                        {
+                            list = new List<BionicIconsIconDef>();
+                            replacementsIcon.Add(bodyPart, list);
+                        }
+
+                        list.Add(def);
                     }
 
-                    list.Add(def);
+                    BodyPartGroupDef bodyPartGroup = DefDatabase<BodyPartGroupDef>.GetNamedSilentFail(bodyPartName);
+                    if (bodyPartGroup != null)
+                    {
+                        List<BionicIconsIconDef> list;
+                        if (!replacementsIconForGroups.TryGetValue(bodyPartGroup, out list))
+                        {
+                            list = new List<BionicIconsIconDef>();
+                            replacementsIconForGroups.Add(bodyPartGroup, list);
+                        }
+
+                        list.Add(def);
+                    }
                 }
 
                 if (def.thingDef != null)
@@ -64,18 +79,46 @@ namespace BionicIcons
 
             foreach (RecipeDef recipe in DefDatabase<RecipeDef>.AllDefs)
             {
-                if (recipe.appliedOnFixedBodyParts.NullOrEmpty()) continue;
-
-                foreach (BodyPartDef bodyPart in recipe.appliedOnFixedBodyParts)
+                if (!recipe.appliedOnFixedBodyParts.NullOrEmpty())
                 {
-                    foreach (IngredientCount ing in recipe.ingredients)
+                    foreach (BodyPartDef bodyPart in recipe.appliedOnFixedBodyParts)
                     {
-                        foreach (ThingDef def in ing.filter.AllowedThingDefs)
+                        foreach (IngredientCount ing in recipe.ingredients)
                         {
-                            if (processed.Contains(def)) continue;
-                            if (processDef(recipe, bodyPart, def))
+                            foreach (ThingDef def in ing.filter.AllowedThingDefs)
                             {
-                                processed.Add(def);
+                                if (processed.Contains(def)) continue;
+
+                                List<BionicIconsIconDef> iconsList;
+                                replacementsIcon.TryGetValue(bodyPart, out iconsList);
+
+                                if (processDef(recipe, iconsList, def))
+                                {
+                                    processed.Add(def);
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+                if (!recipe.appliedOnFixedBodyPartGroups.NullOrEmpty())
+                {
+                    foreach (BodyPartGroupDef bodyPartGroup in recipe.appliedOnFixedBodyPartGroups)
+                    {
+                        foreach (IngredientCount ing in recipe.ingredients)
+                        {
+                            foreach (ThingDef def in ing.filter.AllowedThingDefs)
+                            {
+                                if (processed.Contains(def)) continue;
+
+                                List<BionicIconsIconDef> iconsList;
+                                replacementsIconForGroups.TryGetValue(bodyPartGroup, out iconsList);
+
+                                if (processDef(recipe, iconsList, def))
+                                {
+                                    processed.Add(def);
+                                }
                             }
                         }
                     }
@@ -83,16 +126,14 @@ namespace BionicIcons
             }
         }
 
-        private static bool processDef(RecipeDef recipe, BodyPartDef bodyPart, ThingDef def)
+        private static bool processDef(RecipeDef recipe, List<BionicIconsIconDef> icons, ThingDef def)
         {
+            if (icons == null) return false;
             if (!def.isTechHediff) return false;
             if (def.graphicData == null) return false;
 
             List<BionicIconsTextureDef> colors;
             if (!replacements.TryGetValue(def.graphicData.texPath, out colors)) return false;
-
-            List<BionicIconsIconDef> icons;
-            if (!replacementsIcon.TryGetValue(bodyPart, out icons)) return false;
 
             string tex = null;
             foreach (BionicIconsIconDef option in icons)
@@ -116,7 +157,7 @@ namespace BionicIcons
             foreach (BionicIconsTextureDef option in colors)
             {
                 if (option.nameContains != null && !def.defName.Contains(option.nameContains)) continue;
-                if(option.onlyForColor != BionicIconsTextureDef.colorMissing && option.onlyForColor != def.graphicData.color) continue;
+                if (option.onlyForColor != BionicIconsTextureDef.colorMissing && option.onlyForColor != def.graphicData.color) continue;
 
                 textureDef = option;
                 color = option.color;

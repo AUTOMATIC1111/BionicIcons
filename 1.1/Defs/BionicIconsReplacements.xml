@@ -38,6 +38,7 @@
   <BionicIconsIconDef><defName>Leg</defName><bodyPart>Leg</bodyPart><texture>BionicIcons/BodyParts/Leg</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>PowerArm</defName><bodyPart>Shoulder</bodyPart><texture>BionicIcons/BodyParts/PowerArm</texture><nameContains>Power</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Shoulder</defName><bodyPart>Shoulder</bodyPart><texture>BionicIcons/BodyParts/Shoulder</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>ArmDrill</defName><bodyPart>Arm</bodyPart><texture>BionicIcons/BodyParts/Drill</texture><nameContains>Drill</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Arm</defName><bodyPart>Arm</bodyPart><texture>BionicIcons/BodyParts/Shoulder</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Ear</defName><bodyPart>Ear</bodyPart><texture>BionicIcons/BodyParts/Ear</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Spine</defName><bodyPart>Spine</bodyPart><texture>BionicIcons/BodyParts/Spine</texture></BionicIconsIconDef>
@@ -61,8 +62,8 @@
   <BionicIconsIconDef><defName>Skull</defName><bodyPart>Skull</bodyPart><texture>BionicIcons/BodyParts/Skull</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Waist</defName><bodyPart>Waist</bodyPart><texture>BionicIcons/BodyParts/Waist</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>ReproductiveOrgans</defName><bodyPart>ReproductiveOrgans</bodyPart><texture>BionicIcons/BodyParts/ReproductiveOrgans</texture></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>VenomTalon</defName><bodyPart>MiddleFingers</bodyPart><nameContains>Venom</nameContains><texture>BionicIcons/BodyParts/Claw</texture></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>VenomFangs</defName><bodyPart>Teeth</bodyPart><nameContains>Venom</nameContains><texture>BionicIcons/BodyParts/Fangs</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>VenomTalon</defName><bodyPart>MiddleFingers</bodyPart><texture>BionicIcons/BodyParts/Claw</texture><nameContains>Venom</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>VenomFangs</defName><bodyPart>Teeth</bodyPart><texture>BionicIcons/BodyParts/Fangs</texture><nameContains>Fangs</nameContains></BionicIconsIconDef>
   
   
 </Defs>
