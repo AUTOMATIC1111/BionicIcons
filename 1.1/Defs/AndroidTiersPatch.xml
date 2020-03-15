@@ -13,6 +13,11 @@
     <texture>Things/Item/Organwhite</texture>
     <replacement>BionicIcons/Boxes/AndroidBionic</replacement>
   </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>AndroidTiersArtificialBrain</defName>
+    <texture>Things/Misc/ATPP_ArtificialBrain</texture>
+    <replacement>BionicIcons/Boxes/AndroidBionic</replacement>
+  </BionicIconsTextureDef>
   
   <!-- arcotech replacements -->
   <BionicIconsTextureDef>
@@ -50,6 +55,7 @@
   <BionicIconsIconDef><defName>RearRightMechanicalLeg</defName><bodyPart>RearRightMechanicalLeg</bodyPart><texture>BionicIcons/BodyParts/Leg</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>RearLeftMechanicalLeg</defName><bodyPart>RearLeftMechanicalLeg</bodyPart><texture>BionicIcons/BodyParts/Leg</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>RightMechanicalShoulderMining</defName><bodyPart>RightMechanicalShoulder</bodyPart><texture>BionicIcons/BodyParts/Drill</texture><nameContains>Mining</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RightMechanicalShoulderDrill</defName><bodyPart>RightMechanicalShoulder</bodyPart><texture>BionicIcons/BodyParts/Drill</texture><nameContains>Drill</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>RightMechanicalShoulderHydraulic</defName><bodyPart>RightMechanicalShoulder</bodyPart><texture>BionicIcons/BodyParts/PowerArm</texture><nameContains>Hydraulic</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>RightMechanicalShoulder</defName><bodyPart>RightMechanicalShoulder</bodyPart><texture>BionicIcons/BodyParts/Shoulder</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>LeftMechanicalShoulder</defName><bodyPart>LeftMechanicalShoulder</bodyPart><texture>BionicIcons/BodyParts/Shoulder</texture></BionicIconsIconDef>

@@ -35,6 +35,17 @@
     <texture>Things/Item/BodyPart/SyntheticPart</texture>
     <replacement>BionicIcons/Boxes/Synthetic</replacement>
   </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeArchotechPart</defName>
+    <texture>Things/Item/BodyPart/ArchotechPart</texture>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeNaturalPart</defName>
+    <texture>Things/Item/BodyPart/NaturalPart</texture>
+    <replacement>BionicIcons/Boxes/Default</replacement>
+  </BionicIconsTextureDef>
+  
   
   <BionicIconsIconDef><defName>RibPainkiller</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/Painstopper</texture><nameContains>Painkiller</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>RibAdrenaline</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibAdrenaline</texture><nameContains>Adrenaline</nameContains></BionicIconsIconDef>

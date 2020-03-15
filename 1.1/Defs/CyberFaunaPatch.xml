@@ -10,13 +10,12 @@
   <BionicIconsTextureDef>
     <defName>CyberFaunaAnimBionicOrg</defName>
     <texture>CF/AnimBionicOrg</texture>
-    <replacement>BionicIcons/Boxes/AnimalSurrogate</replacement>
+    <replacement>BionicIcons/Boxes/AnimalBionic</replacement>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>CyberFaunaAnimBionicProt</defName>
     <texture>CF/AnimBionicProt</texture>
     <replacement>BionicIcons/Boxes/AnimalBionic</replacement>
-    <color>(184,168,123)</color>
   </BionicIconsTextureDef>
   <BionicIconsTextureDef>
     <defName>CyberFaunaAnimSimpleProt</defName>

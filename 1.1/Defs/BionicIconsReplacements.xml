@@ -39,6 +39,7 @@
   <BionicIconsIconDef><defName>PowerArm</defName><bodyPart>Shoulder</bodyPart><texture>BionicIcons/BodyParts/PowerArm</texture><nameContains>Power</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Shoulder</defName><bodyPart>Shoulder</bodyPart><texture>BionicIcons/BodyParts/Shoulder</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>ArmDrill</defName><bodyPart>Arm</bodyPart><texture>BionicIcons/BodyParts/Drill</texture><nameContains>Drill</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>ShoulderDrill</defName><bodyPart>Shoulder</bodyPart><texture>BionicIcons/BodyParts/Drill</texture><nameContains>Drill</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Arm</defName><bodyPart>Arm</bodyPart><texture>BionicIcons/BodyParts/Shoulder</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Ear</defName><bodyPart>Ear</bodyPart><texture>BionicIcons/BodyParts/Ear</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Spine</defName><bodyPart>Spine</bodyPart><texture>BionicIcons/BodyParts/Spine</texture></BionicIconsIconDef>
@@ -64,6 +65,10 @@
   <BionicIconsIconDef><defName>ReproductiveOrgans</defName><bodyPart>ReproductiveOrgans</bodyPart><texture>BionicIcons/BodyParts/ReproductiveOrgans</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>VenomTalon</defName><bodyPart>MiddleFingers</bodyPart><texture>BionicIcons/BodyParts/Claw</texture><nameContains>Venom</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>VenomFangs</defName><bodyPart>Teeth</bodyPart><texture>BionicIcons/BodyParts/Fangs</texture><nameContains>Fangs</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Femur</defName><bodyPart>Femur</bodyPart><texture>BionicIcons/BodyParts/Femur</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Humerus</defName><bodyPart>Humerus</bodyPart><texture>BionicIcons/BodyParts/Humerus</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>WingGeneric</defName><bodyPart>Back</bodyPart><texture>BionicIcons/BodyParts/Wing</texture><nameContains>Wing</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Back</defName><bodyPart>Back</bodyPart><texture>BionicIcons/BodyParts/Torso</texture></BionicIconsIconDef>
   
   
 </Defs>
