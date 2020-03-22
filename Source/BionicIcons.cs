@@ -11,6 +11,8 @@ namespace BionicIcons
     [StaticConstructorOnStartup]
     public class BionicIcons
     {
+        public static HashSet<ThingDef> alteredThings = new HashSet<ThingDef>();
+
         static MethodInfo graphicDataInit = typeof(GraphicData).GetMethod("Init", BindingFlags.NonPublic | BindingFlags.Instance);
         static Dictionary<string, List<BionicIconsTextureDef>> replacements = new Dictionary<string, List<BionicIconsTextureDef>>();
         static Dictionary<BodyPartDef, List<BionicIconsIconDef>> replacementsIcon = new Dictionary<BodyPartDef, List<BionicIconsIconDef>>();
@@ -129,11 +131,11 @@ namespace BionicIcons
         private static bool processDef(RecipeDef recipe, List<BionicIconsIconDef> icons, ThingDef def)
         {
             if (icons == null) return false;
-            if (!def.isTechHediff) return false;
             if (def.graphicData == null) return false;
 
             List<BionicIconsTextureDef> colors;
             if (!replacements.TryGetValue(def.graphicData.texPath, out colors)) return false;
+
 
             string tex = null;
             foreach (BionicIconsIconDef option in icons)
@@ -164,6 +166,7 @@ namespace BionicIcons
                 break;
             }
 
+            alteredThings.Add(def);
             replace(def, tex, color, textureDef);
             return true;
         }

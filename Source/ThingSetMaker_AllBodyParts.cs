@@ -11,8 +11,9 @@ namespace BionicIcons
     {
         protected override IEnumerable<ThingDef> AllGeneratableThingsDebugSub(ThingSetMakerParams parms)
         {
-            foreach (ThingDef def in DefDatabase<ThingDef>.AllDefs.Where(x => x.isTechHediff)) {
-                yield return def;
+            foreach (ThingDef def in DefDatabase<ThingDef>.AllDefs.Where(x => x.isTechHediff).Union(BionicIcons.alteredThings))
+            {
+                    yield return def;
             }
 
             yield break;
