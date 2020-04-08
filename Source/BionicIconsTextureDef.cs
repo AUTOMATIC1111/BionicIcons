@@ -17,5 +17,6 @@ namespace Verse
         public Color onlyForColor = colorMissing;
 
         public string nameContains;
+        public string onlyForMod;
     }
 }

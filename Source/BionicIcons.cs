@@ -23,7 +23,7 @@ namespace BionicIcons
             HashSet<ThingDef> processed = new HashSet<ThingDef>();
             List<BionicIconsIconDef> directReplacements = new List<BionicIconsIconDef>();
 
-            foreach (BionicIconsTextureDef def in DefDatabase<BionicIconsTextureDef>.AllDefs)
+            foreach (BionicIconsTextureDef def in DefDatabase<BionicIconsTextureDef>.AllDefs.OrderBy(x => x.onlyForMod == null ? 1 : 0).ThenBy(x => x.defName))
             {
                 List<BionicIconsTextureDef> list;
                 if (!replacements.TryGetValue(def.texture, out list))
@@ -160,6 +160,7 @@ namespace BionicIcons
             {
                 if (option.nameContains != null && !def.defName.Contains(option.nameContains)) continue;
                 if (option.onlyForColor != BionicIconsTextureDef.colorMissing && option.onlyForColor != def.graphicData.color) continue;
+                if (option.onlyForMod != null && def.modContentPack != null && option.onlyForMod != def.modContentPack.PackageId) continue;
 
                 textureDef = option;
                 color = option.color;
