@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BionicIconsTextureDef>
+    <defName>AA_MutantArmImplant</defName>
+    <texture>Things/Item/Resource/AA_MutantArmImplant</texture>
+    <replacement>BionicIcons/Boxes/AnimalMutated</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>AA_MutantEyeImplant</defName>
+    <texture>Things/Item/Resource/AA_MutantEyeImplant</texture>
+    <replacement>BionicIcons/Boxes/AnimalMutated</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>AA_MutantLegImplant</defName>
+    <texture>Things/Item/Resource/AA_MutantLegImplant</texture>
+    <replacement>BionicIcons/Boxes/AnimalMutated</replacement>
+  </BionicIconsTextureDef>
+
+
+  <BionicIconsIconDef><defName>AAFloat</defName><bodyParts><li>AA_HydrogenSac</li><li>AA_BoatHydrogenSac</li></bodyParts><texture>BionicIcons/BodyParts/Float</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AAShell</defName><bodyParts><li>AA_FirstWormSegment</li><li>AA_SecondWormSegment</li><li>AA_ThirdWormSegment</li><li>AA_FourthWormSegment</li><li>AA_Carapace</li><li>AA_ConicalShell</li><li>AA_NautilusShell</li></bodyParts><texture>BionicIcons/BodyParts/Shell</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AAWing</defName><bodyParts><li>AA_InsectWing</li><li>AA_ReptileWing</li></bodyParts><texture>BionicIcons/BodyParts/Wing</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AAClaw</defName><bodyParts><li>AA_LeftPincer</li><li>AA_RightPincer</li><li>AA_LeftCreatureBlade</li><li>AA_RightCreatureBlade</li><li>AA_FrontClaw</li></bodyParts><texture>BionicIcons/BodyParts/Claw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AANucleus</defName><bodyParts><li>AA_Nucleus</li></bodyParts><texture>BionicIcons/BodyParts/Molecule</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AAJaw</defName><bodyParts><li>AA_InsectMouth</li><li>AA_CrocodileJaw</li><li>AA_SentientPlantMouth</li></bodyParts><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AAEye</defName><bodyParts><li>AA_SnailEyeStalk</li></bodyParts><texture>BionicIcons/BodyParts/Eye</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AALeg</defName><bodyParts><li>AA_SmallInsectLeg</li></bodyParts><texture>BionicIcons/BodyParts/Leg</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AATail</defName><bodyParts><li>AA_InsectTail</li></bodyParts><texture>BionicIcons/BodyParts/Tail</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AATentacle</defName><bodyParts><li>AA_JellyfishTentacle</li><li>AA_ManTrapTentacle</li><li>AA_SquidTentacle</li><li>AA_NautilusTentacles</li><li>AA_JellyfishTentacles</li></bodyParts><texture>BionicIcons/BodyParts/Tentacle</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AAWave</defName><bodyParts><li>AA_PlantVibrationSensor</li><li>AA_VibrationReceptor</li><li>AA_EcholocationOrgan</li></bodyParts><texture>BionicIcons/BodyParts/Wave</texture></BionicIconsIconDef>
+
+</Defs>
