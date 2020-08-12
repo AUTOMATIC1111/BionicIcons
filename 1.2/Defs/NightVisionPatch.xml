@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BionicIconsTextureDef>
+    <defName>NightVisionBox</defName>
+    <texture>Things_Misc/HealthItem_TapetumImplant</texture>
+    <replacement>BionicIcons/Boxes/Cyber</replacement>
+    <colorIcon>(0,0,0)</colorIcon>
+  </BionicIconsTextureDef>
+  
+  <BionicIconsIconDef><defName>TapetumLucidum</defName><thingDef>NV_TapetumRaw</thingDef><texture>BionicIcons/Items/TapetumLucidum</texture></BionicIconsIconDef>
+  
+</Defs>

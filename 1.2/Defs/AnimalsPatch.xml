@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BionicIconsTextureDef>
+    <defName>animalBionic</defName>
+    <texture>Things/Item/BodyPart/AnimalBodyPart_bionic</texture>
+    <replacement>BionicIcons/Boxes/AnimalBionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>animalOrgan</defName>
+    <texture>Things/Item/BodyPart/AnimalBodyPart_organ</texture>
+    <replacement>BionicIcons/Boxes/Animal</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>animalProsthetic</defName>
+    <texture>Things/Item/BodyPart/AnimalBodyPart_prosthetic</texture>
+    <replacement>BionicIcons/Boxes/AnimalProsthetic</replacement>
+  </BionicIconsTextureDef>
+  
+</Defs>
