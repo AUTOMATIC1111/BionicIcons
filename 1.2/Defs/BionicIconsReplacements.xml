@@ -52,8 +52,9 @@
   <BionicIconsIconDef><defName>Tail</defName><bodyPart>Tail</bodyPart><texture>BionicIcons/BodyParts/Tail</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Painstopper</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Painstopper</texture><nameContains>Painstopper</nameContains></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Joywire</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Joywire</texture><nameContains>Joywire</nameContains></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>BrainMicrochip</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Microchip</texture><SolidOnly>true</SolidOnly></BionicIconsIconDef>
-  <BionicIconsIconDef><defName>BrainSoft</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Brain</texture><SoftOnly>true</SoftOnly></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>BrainSoft</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Brain</texture><nameContains>Brain</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>BrainPsychic</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Psychic</texture><nameContains>Psychic</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>BrainMicrochip</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Microchip</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>AnimalJaw</defName><bodyPart>AnimalJaw</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>Beak</defName><bodyPart>Beak</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
   <BionicIconsIconDef><defName>TurtleBeak</defName><bodyPart>TurtleBeak</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
