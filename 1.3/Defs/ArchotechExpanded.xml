@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BionicIconsTextureDef>
+    <defName>archotechExpandedArchotech</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(70,200,150)</onlyForColor>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+</Defs>

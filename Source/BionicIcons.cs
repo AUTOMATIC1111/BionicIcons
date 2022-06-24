@@ -14,6 +14,8 @@ namespace BionicIcons
         public static HashSet<ThingDef> alteredThings = new HashSet<ThingDef>();
 
         static MethodInfo graphicDataInit = typeof(GraphicData).GetMethod("Init", BindingFlags.NonPublic | BindingFlags.Instance);
+        static FieldInfo cachedGraphicField = typeof(GraphicData).GetField("cachedGraphic", BindingFlags.NonPublic | BindingFlags.Instance);
+
         static Dictionary<string, List<BionicIconsTextureDef>> replacements = new Dictionary<string, List<BionicIconsTextureDef>>();
         static Dictionary<BodyPartDef, List<BionicIconsIconDef>> replacementsIcon = new Dictionary<BodyPartDef, List<BionicIconsIconDef>>();
         static Dictionary<BodyPartGroupDef, List<BionicIconsIconDef>> replacementsIconForGroups = new Dictionary<BodyPartGroupDef, List<BionicIconsIconDef>>();
@@ -172,18 +174,19 @@ namespace BionicIcons
             return true;
         }
 
+
         private static void replace(ThingDef def, string tex, Color color, BionicIconsTextureDef textureDef)
         {
-            
             if (textureDef != null)
             {
-                def.graphicData.graphicClass = typeof(Graphic_SingleWithMask);
+                def.graphicData.graphicClass = typeof(Graphic_Single);
                 def.graphicData.drawSize = new Vector2(1.0f, 1.0f);
                 def.graphicData.color = textureDef.color;
                 def.graphicData.texPath = textureDef.replacement;
                 def.graphicData.shaderType = ShaderTypeDefOf.CutoutComplex;
-                Graphic_SingleWithMask.maskPath = tex;
                 def.graphicData.colorTwo = textureDef.colorIcon;
+
+                cachedGraphicField.SetValue(def.graphicData, GraphicDatabase.Get(typeof(Graphic_Single), textureDef.replacement, ShaderTypeDefOf.CutoutComplex.Shader, new Vector2(1.0f, 1.0f), textureDef.color, textureDef.colorIcon, tex));
             }
             else
             {
@@ -191,9 +194,10 @@ namespace BionicIcons
                 def.graphicData.drawSize = new Vector2(1.0f, 1.0f);
                 def.graphicData.color = color;
                 def.graphicData.texPath = tex;
+
+                graphicDataInit.Invoke(def.graphicData, new object[] { });
             }
 
-            graphicDataInit.Invoke(def.graphicData, new object[] { });
             def.graphic = def.graphicData.Graphic;
             def.uiIcon = def.graphicData.Graphic.MatSingle.mainTexture as Texture2D;
             def.uiIconColor = color;

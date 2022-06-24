@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BionicIconsTextureDef>
+    <defName>EccentricTech_Cosmetic</defName>
+    <texture>Things/Eccentric/CosmeticItem</texture>
+    <replacement>BionicIcons/Boxes/Cosmetic</replacement>
+  </BionicIconsTextureDef>
+  
+  <BionicIconsIconDef><defName>EccentricTech_EarRight</defName><bodyPart>RightCrown</bodyPart><texture>BionicIcons/BodyParts/AnimalEar</texture><nameContains>EccentricEar</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>EccentricTech_EarLeft</defName><bodyPart>LeftCrown</bodyPart><texture>BionicIcons/BodyParts/AnimalEar</texture><nameContains>EccentricEar</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>EccentricTech_Horn</defName><bodyPart>FrontCrown</bodyPart><texture>BionicIcons/BodyParts/Horns</texture><nameContains>EccentricHorn</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>EccentricTech_HornRight</defName><bodyPart>RightCrown</bodyPart><texture>BionicIcons/BodyParts/Horns</texture><nameContains>EccentricHorn</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>EccentricTech_HornLeft</defName><bodyPart>LeftCrown</bodyPart><texture>BionicIcons/BodyParts/Horns</texture><nameContains>EccentricHorn</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>EccentricTech_Tail</defName><bodyPart>CosmeticTail</bodyPart><texture>BionicIcons/BodyParts/Tail</texture><nameContains>EccentricTail</nameContains></BionicIconsIconDef>
+
+</Defs>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- simple replacements -->
+  <BionicIconsTextureDef>
+    <defName>AndroidTiersOrganblack</defName>
+    <texture>Things/Item/Organblack</texture>
+    <replacement>BionicIcons/Boxes/AndroidProsthetic</replacement>
+  </BionicIconsTextureDef>
+  
+  <!-- advanced replacements -->
+  <BionicIconsTextureDef>
+    <defName>AndroidTiersOrganwhite</defName>
+    <texture>Things/Item/Organwhite</texture>
+    <replacement>BionicIcons/Boxes/AndroidBionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>AndroidTiersArtificialBrain</defName>
+    <texture>Things/Misc/ATPP_ArtificialBrain</texture>
+    <replacement>BionicIcons/Boxes/AndroidBionic</replacement>
+  </BionicIconsTextureDef>
+  
+  <!-- arcotech replacements -->
+  <BionicIconsTextureDef>
+    <defName>AndroidTiersOrgangold</defName>
+    <texture>Things/Item/Organgold</texture>
+    <replacement>BionicIcons/Boxes/AndroidArchotech</replacement>
+  </BionicIconsTextureDef>
+  
+  <!-- hydraulic replacements -->
+  <BionicIconsTextureDef>
+    <defName>AndroidTiersOrganorange</defName>
+    <texture>Things/Item/Organorange</texture>
+    <replacement>BionicIcons/Boxes/AndroidProstheticAdvanced</replacement>
+  </BionicIconsTextureDef>
+  
+  <!-- brain chips -->
+  <BionicIconsTextureDef>
+    <defName>AndroidTiersOrganPurple</defName>
+    <texture>Things/Item/OrganPurple</texture>
+    <replacement>BionicIcons/Boxes/AndroidChip</replacement>
+  </BionicIconsTextureDef>
+  
+  
+  <BionicIconsIconDef><defName>SmellSensor</defName><bodyPart>SmellSensor</bodyPart><texture>BionicIcons/BodyParts/Nose</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>MLeftKidney</defName><bodyPart>MLeftKidney</bodyPart><texture>BionicIcons/BodyParts/Battery</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>MRightKidney</defName><bodyPart>MRightKidney</bodyPart><texture>BionicIcons/BodyParts/Storage</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>MLiver</defName><bodyPart>MLiver</bodyPart><texture>BionicIcons/BodyParts/Transformer</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>MRightLung</defName><bodyPart>MRightLung</bodyPart><texture>BionicIcons/BodyParts/Heatsink</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>MHeart</defName><bodyPart>MHeart</bodyPart><texture>BionicIcons/BodyParts/Snowflake</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>CyberneticAnimalJaw</defName><bodyPart>CyberneticAnimalJaw</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RightMechanicalLeg</defName><bodyPart>RightMechanicalLeg</bodyPart><texture>BionicIcons/BodyParts/Leg</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>LeftMechanicalLeg</defName><bodyPart>LeftMechanicalLeg</bodyPart><texture>BionicIcons/BodyParts/Leg</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>FrontRightMechanicalLeg</defName><bodyPart>FrontRightMechanicalLeg</bodyPart><texture>BionicIcons/BodyParts/Leg</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>FrontLeftMechanicalLeg</defName><bodyPart>FrontLeftMechanicalLeg</bodyPart><texture>BionicIcons/BodyParts/Leg</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RearRightMechanicalLeg</defName><bodyPart>RearRightMechanicalLeg</bodyPart><texture>BionicIcons/BodyParts/Leg</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RearLeftMechanicalLeg</defName><bodyPart>RearLeftMechanicalLeg</bodyPart><texture>BionicIcons/BodyParts/Leg</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RightMechanicalShoulderMining</defName><bodyPart>RightMechanicalShoulder</bodyPart><texture>BionicIcons/BodyParts/Drill</texture><nameContains>Mining</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RightMechanicalShoulderDrill</defName><bodyPart>RightMechanicalShoulder</bodyPart><texture>BionicIcons/BodyParts/Drill</texture><nameContains>Drill</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RightMechanicalShoulderHydraulic</defName><bodyPart>RightMechanicalShoulder</bodyPart><texture>BionicIcons/BodyParts/PowerArm</texture><nameContains>Hydraulic</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RightMechanicalShoulder</defName><bodyPart>RightMechanicalShoulder</bodyPart><texture>BionicIcons/BodyParts/Shoulder</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>LeftMechanicalShoulder</defName><bodyPart>LeftMechanicalShoulder</bodyPart><texture>BionicIcons/BodyParts/Shoulder</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>LeftHearingSensor</defName><bodyPart>LeftHearingSensor</bodyPart><texture>BionicIcons/BodyParts/Ear</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RightHearingSensor</defName><bodyPart>RightHearingSensor</bodyPart><texture>BionicIcons/BodyParts/Ear</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>MStomach</defName><bodyPart>MStomach</bodyPart><texture>BionicIcons/BodyParts/Power</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>LeftSightSensor</defName><bodyPart>LeftSightSensor</bodyPart><texture>BionicIcons/BodyParts/Eye</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RightSightSensor</defName><bodyPart>RightSightSensor</bodyPart><texture>BionicIcons/BodyParts/Eye</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Framework</defName><bodyPart>Framework</bodyPart><texture>BionicIcons/BodyParts/Torso</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>CounterWeightTail</defName><bodyPart>CounterWeightTail</bodyPart><texture>BionicIcons/BodyParts/Tail</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>ArtificialBrain</defName><bodyPart>ArtificialBrain</bodyPart><texture>BionicIcons/BodyParts/Microchip</texture></BionicIconsIconDef>
+
+</Defs>

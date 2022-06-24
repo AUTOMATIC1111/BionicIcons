@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BionicIconsTextureDef>
+    <defName>epoeBionicPart</defName>
+    <texture>Things/Item/BodyPart/BionicPart</texture>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeAdvancedPart</defName>
+    <texture>Things/Item/BodyPart/AdvancedPart</texture>
+    <replacement>BionicIcons/Boxes/BionicAdvanced</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeGlitterworldPart</defName>
+    <texture>Things/Item/BodyPart/GlitterworldPart</texture>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeSimplePart</defName>
+    <texture>Things/Item/BodyPart/SimplePart</texture>
+    <replacement>BionicIcons/Boxes/ProstheticAdvanced</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeBasicProsthesis</defName>
+    <texture>Things/Item/BodyPart/BasicProsthesis</texture>
+    <replacement>BionicIcons/Boxes/Prosthetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeSurrogatePart</defName>
+    <texture>Things/Item/BodyPart/SurrogatePart</texture>
+    <replacement>BionicIcons/Boxes/Surrogate</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeSyntheticPart</defName>
+    <texture>Things/Item/BodyPart/SyntheticPart</texture>
+    <replacement>BionicIcons/Boxes/Synthetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeArchotechPart</defName>
+    <texture>Things/Item/BodyPart/ArchotechPart</texture>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeNaturalPart</defName>
+    <texture>Things/Item/BodyPart/NaturalPart</texture>
+    <replacement>BionicIcons/Boxes/Default</replacement>
+  </BionicIconsTextureDef>
+  
+  
+  <BionicIconsIconDef><defName>RibPainkiller</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/Painstopper</texture><nameContains>Painkiller</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RibAdrenaline</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibAdrenaline</texture><nameContains>Adrenaline</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RibMedical</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibMedical</texture><nameContains>Medical</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>RibDrugged</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/RibDrugged</texture><nameContains>Drugged</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Ribcage</defName><bodyPart>Ribcage</bodyPart><texture>BionicIcons/BodyParts/Ribcage</texture></BionicIconsIconDef>
+
+  <BionicIconsIconDef><defName>ScytherBlade</defName><thingDef>ScytherBlade</thingDef><texture>BionicIcons/Items/ScytherBlade</texture></BionicIconsIconDef>
+  
+  <!-- EPOE Replacement Expansion -->
+  <BionicIconsIconDef><defName>EpoeSkin</defName><bodyPart>Torso</bodyPart><texture>BionicIcons/BodyParts/Skin</texture><nameContains>Skin</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>EpoeRib</defName><bodyPart>Rib1</bodyPart><texture>BionicIcons/BodyParts/Ribcage</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>EpoeFinger</defName><bodyPart>Finger</bodyPart><texture>BionicIcons/BodyParts/Finger</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>EpoeToe</defName><bodyPart>Toe</bodyPart><texture>BionicIcons/BodyParts/Toe</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>EpoeRadius</defName><bodyPart>Radius</bodyPart><texture>BionicIcons/BodyParts/Tibia</texture></BionicIconsIconDef>
+
+</Defs>

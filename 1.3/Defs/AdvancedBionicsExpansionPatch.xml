@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BionicIconsTextureDef>
+    <defName>fsfAdvBionic2</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(144,98,179)</onlyForColor>
+    <replacement>BionicIcons/Boxes/BionicAdvanced</replacement>
+  </BionicIconsTextureDef>
+  
+  <BionicIconsTextureDef>
+    <defName>fsfArchotech</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(82,190,128)</onlyForColor>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+</Defs>

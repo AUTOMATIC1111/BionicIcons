@@ -9,27 +9,33 @@ namespace BionicIcons
 {
     class Graphic_SingleWithMask : Graphic_Single
     {
-        public static string maskPath;
-
         public override void Init(GraphicRequest req)
         {
+            string path = req.path;
+            string mask = req.maskPath;
+
             this.data = req.graphicData;
             this.path = req.path;
             this.color = req.color;
             this.colorTwo = req.colorTwo;
             this.drawSize = req.drawSize;
             MaterialRequest req2 = default(MaterialRequest);
-            req2.mainTex = ContentFinder<Texture2D>.Get(req.path, true);
+            req2.mainTex = ContentFinder<Texture2D>.Get(path, true);
             req2.shader = req.shader;
             req2.color = this.color;
             req2.colorTwo = this.colorTwo;
             req2.renderQueue = req.renderQueue;
             req2.shaderParameters = req.shaderParameters;
-            if (req.shader.SupportsMaskTex())
+            if (req.shader.SupportsMaskTex() && mask != null)
             {
-                req2.maskTex = ContentFinder<Texture2D>.Get(maskPath, false);
+                req2.maskTex = ContentFinder<Texture2D>.Get(mask, false);
             }
             this.mat = MaterialPool.MatFrom(req2);
+        }
+
+        public override Graphic GetColoredVersion(Shader newShader, Color newColor, Color newColorTwo)
+        {
+            return GraphicDatabase.Get<Graphic_SingleWithMask>(path, newShader, this.drawSize, newColor, newColorTwo, this.data, null);
         }
 
     }
