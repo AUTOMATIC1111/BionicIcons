@@ -323,7 +323,6 @@
     <Compile Include="BionicIcons.cs" />
     <Compile Include="BionicIconsIconDef.cs" />
     <Compile Include="BionicIconsTextureDef.cs" />
-    <Compile Include="Graphic_SingleWithMask.cs" />
     <Compile Include="ThingSetMaker_AllBodyParts.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
@@ -341,7 +340,7 @@
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_UpdateFileVersion="True" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_BuildVersioningStyle="None.None.Increment.TimeStamp" BuildVersion_StartDate="2000/1/1" />
+      <UserProperties BuildVersion_StartDate="2000/1/1" BuildVersion_BuildVersioningStyle="None.None.Increment.TimeStamp" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_UpdateFileVersion="True" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
