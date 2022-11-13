@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- this is a list of base game textures that will be replaced -->
+  <BionicIconsTextureDef>
+    <defName>bionic</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(189,169,118)</onlyForColor>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>archotech</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(155,165,148)</onlyForColor>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>prosthetic</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(154,124,104)</onlyForColor>
+    <replacement>BionicIcons/Boxes/Prosthetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>natural</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <replacement>BionicIcons/Boxes/Default</replacement>
+  </BionicIconsTextureDef>
+  
+  <!-- this is a list of actual textures to replace vanilla items -->
+  <BionicIconsIconDef><defName>Nose</defName><bodyPart>Nose</bodyPart><texture>BionicIcons/BodyParts/Nose</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Kidney</defName><bodyPart>Kidney</bodyPart><texture>BionicIcons/BodyParts/Kidney</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Liver</defName><bodyPart>Liver</bodyPart><texture>BionicIcons/BodyParts/Liver</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Lung</defName><bodyPart>Lung</bodyPart><texture>BionicIcons/BodyParts/Lung</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>heart</defName><bodyPart>Heart</bodyPart><texture>BionicIcons/BodyParts/Heart</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Foot</defName><bodyPart>Foot</bodyPart><texture>BionicIcons/BodyParts/Foot</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Jaw</defName><bodyPart>Jaw</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Clavicle</defName><bodyPart>Clavicle</bodyPart><texture>BionicIcons/BodyParts/Clavicle</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AnimalLeg</defName><bodyPart>Leg</bodyPart><texture>BionicIcons/BodyParts/AnimalLeg</texture><nameContains>Animal</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Leg</defName><bodyPart>Leg</bodyPart><texture>BionicIcons/BodyParts/Leg</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>PowerArm</defName><bodyPart>Shoulder</bodyPart><texture>BionicIcons/BodyParts/PowerArm</texture><nameContains>Power</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Shoulder</defName><bodyPart>Shoulder</bodyPart><texture>BionicIcons/BodyParts/Shoulder</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>ArmDrill</defName><bodyPart>Arm</bodyPart><texture>BionicIcons/BodyParts/Drill</texture><nameContains>Drill</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>ShoulderDrill</defName><bodyPart>Shoulder</bodyPart><texture>BionicIcons/BodyParts/Drill</texture><nameContains>Drill</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Arm</defName><bodyPart>Arm</bodyPart><texture>BionicIcons/BodyParts/Shoulder</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Ear</defName><bodyPart>Ear</bodyPart><texture>BionicIcons/BodyParts/Ear</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Spine</defName><bodyPart>Spine</bodyPart><texture>BionicIcons/BodyParts/Spine</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Stomach</defName><bodyPart>Stomach</bodyPart><texture>BionicIcons/BodyParts/Stomach</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>PowerClaw</defName><bodyPart>Hand</bodyPart><texture>BionicIcons/BodyParts/Claw</texture><nameContains>Claw</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Hand</defName><bodyPart>Hand</bodyPart><texture>BionicIcons/BodyParts/Hand</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Eye</defName><bodyPart>Eye</bodyPart><texture>BionicIcons/BodyParts/Eye</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Torso</defName><bodyPart>Torso</bodyPart><texture>BionicIcons/BodyParts/Torso</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Pelvis</defName><bodyPart>Pelvis</bodyPart><texture>BionicIcons/BodyParts/Pelvis</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Tail</defName><bodyPart>Tail</bodyPart><texture>BionicIcons/BodyParts/Tail</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Painstopper</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Painstopper</texture><nameContains>Painstopper</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Joywire</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Joywire</texture><nameContains>Joywire</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>BrainSoft</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Brain</texture><nameContains>Brain</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>BrainPsychic</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Psychic</texture><nameContains>Psychic</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>BrainMicrochip</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Microchip</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>AnimalJaw</defName><bodyPart>AnimalJaw</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Beak</defName><bodyPart>Beak</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>TurtleBeak</defName><bodyPart>TurtleBeak</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>InsectMouth</defName><bodyPart>InsectMouth</bodyPart><texture>BionicIcons/BodyParts/Jaw</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Tibia</defName><bodyPart>Tibia</bodyPart><texture>BionicIcons/BodyParts/Tibia</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Sternum</defName><bodyPart>Sternum</bodyPart><texture>BionicIcons/BodyParts/Sternum</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Skull</defName><bodyPart>Skull</bodyPart><texture>BionicIcons/BodyParts/Skull</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Waist</defName><bodyPart>Waist</bodyPart><texture>BionicIcons/BodyParts/Waist</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>ReproductiveOrgans</defName><bodyPart>ReproductiveOrgans</bodyPart><texture>BionicIcons/BodyParts/ReproductiveOrgans</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>VenomTalon</defName><bodyPart>MiddleFingers</bodyPart><texture>BionicIcons/BodyParts/Claw</texture><nameContains>Venom</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>VenomFangs</defName><bodyPart>Teeth</bodyPart><texture>BionicIcons/BodyParts/Fangs</texture><nameContains>Fangs</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Femur</defName><bodyPart>Femur</bodyPart><texture>BionicIcons/BodyParts/Femur</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Humerus</defName><bodyPart>Humerus</bodyPart><texture>BionicIcons/BodyParts/Humerus</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>WingGeneric</defName><bodyPart>Back</bodyPart><texture>BionicIcons/BodyParts/Wing</texture><nameContains>Wing</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Back</defName><bodyPart>Back</bodyPart><texture>BionicIcons/BodyParts/Torso</texture></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Tongue</defName><bodyPart>Tongue</bodyPart><texture>BionicIcons/BodyParts/Tongue</texture></BionicIconsIconDef>
+  
+  
+</Defs>

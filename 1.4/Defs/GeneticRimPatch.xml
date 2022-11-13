@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BionicIconsTextureDef>
+    <defName>geneticRimAnimalGeneticHybridOrgan</defName>
+    <texture>Things/Item/GR_AnimalGeneticHybridOrgan</texture>
+    <replacement>BionicIcons/Boxes/GeneticOrganAnimal</replacement>
+  </BionicIconsTextureDef>
+  
+  <BionicIconsTextureDef>
+    <defName>geneticRimHumanGeneticHybridOrgan</defName>
+    <texture>Things/Item/GR_HumanGeneticHybridOrgan</texture>
+    <replacement>BionicIcons/Boxes/GeneticOrganHuman</replacement>
+  </BionicIconsTextureDef>
+  
+  <BionicIconsIconDef><defName>geneticRimSkin</defName><bodyPart>Sternum</bodyPart><texture>BionicIcons/BodyParts/Skin</texture><nameContains>GR_</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>geneticRimLeg</defName><bodyPart>Tibia</bodyPart><texture>BionicIcons/BodyParts/Leg</texture><nameContains>GR_</nameContains></BionicIconsIconDef>
+
+</Defs>

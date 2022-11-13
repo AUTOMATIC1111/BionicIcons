@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BionicIconsTextureDef>
+    <defName>MedievalBasicProsthesis</defName>
+    <texture>Things/Item/BodyPart/BasicProsthesis</texture>
+    <replacement>BionicIcons/Boxes/MedievalBasic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>MedievalMechanicalProsthesis</defName>
+    <texture>Things/Item/BodyPart/MechanicalProsthesis</texture>
+    <replacement>BionicIcons/Boxes/MedievalBasic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>MedievalAmbroisenProsthesis</defName>
+    <texture>Things/Item/BodyPart/AmbroisenProsthesis</texture>
+    <replacement>BionicIcons/Boxes/MedievalAmbroisen</replacement>
+  </BionicIconsTextureDef>
+</Defs>
