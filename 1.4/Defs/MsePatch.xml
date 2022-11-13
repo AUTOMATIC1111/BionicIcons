@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Arcotech -->
+  <BionicIconsTextureDef>
+    <defName>mseArchotech</defName>
+    <texture>Things/Item/Health/HealthItemArchotech</texture>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>mseArchotech2</defName>
+    <texture>Things/Item/Health/HealthItemArchotech2</texture>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>mseArchotech3</defName>
+    <texture>Things/Item/Health/HealthItemArchotech3</texture>
+    <replacement>BionicIcons/Boxes/ArchotechModule</replacement>
+  </BionicIconsTextureDef>
+
+  <!-- Bionic -->
+  <BionicIconsTextureDef>
+    <defName>mseBionic</defName>
+    <texture>Things/Item/Health/HealthItemBionic</texture>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>mseBionic2</defName>
+    <texture>Things/Item/Health/HealthItemBionic2</texture>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>mseBionic3</defName>
+    <texture>Things/Item/Health/HealthItemBionic3</texture>
+    <replacement>BionicIcons/Boxes/BionicModule</replacement>
+  </BionicIconsTextureDef>
+
+  <!-- Natural -->
+  <BionicIconsTextureDef>
+    <defName>mseNatural</defName>
+    <texture>Things/Item/Health/HealthItemNatural</texture>
+    <replacement>BionicIcons/Boxes/Default</replacement>
+  </BionicIconsTextureDef>
+
+  <!-- Prostetic -->
+  <BionicIconsTextureDef>
+    <defName>mseProstetheticUnused</defName>
+    <texture>Things/Item/Health/HealthItemProsthetic</texture>
+    <replacement>BionicIcons/Boxes/Prosthetic</replacement>
+  </BionicIconsTextureDef>
+
+  <!-- Basic --> 
+  <BionicIconsTextureDef>
+    <defName>mseBasic</defName>
+    <texture>Things/Item/Health/HealthItemBasic</texture>
+    <replacement>BionicIcons/Boxes/Prosthetic</replacement>
+  </BionicIconsTextureDef>
+</Defs>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- https://steamcommunity.com/sharedfiles/filedetails/?id=1742245843 -->
+  <!-- https://steamcommunity.com/sharedfiles/filedetails/?id=1978492655 -->
+
+  <BionicIconsTextureDef>
+    <defName>EvolvedOrgans</defName>
+    <texture>Things/Item/Resource/EvoOrgBox</texture>
+    <replacement>BionicIcons/Boxes/Evolved</replacement>
+  </BionicIconsTextureDef>
+
+  <BionicIconsTextureDef>
+    <defName>EvolvedOrgansRedux</defName>
+    <texture>Things/Item/Health/EVOR_Texture_OrganBox</texture>
+    <replacement>BionicIcons/Boxes/Evolved</replacement>
+  </BionicIconsTextureDef>
+
+  <BionicIconsIconDef><defName>Abd_Hormone</defName><bodyPart>BodyCavityA</bodyPart><texture>BionicIcons/BodyParts/Molecule</texture><nameContains>Abd_Hormone</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Back_Hand</defName><bodyPart>Back</bodyPart><texture>BionicIcons/BodyParts/Tentacle</texture><nameContains>Back_Hand</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Abd_Combat</defName><bodyPart>BodyCavityA</bodyPart><texture>BionicIcons/BodyParts/Drop</texture><nameContains>Abd_Combat</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Abd_SecondHeart</defName><bodyPart>BodyCavity2</bodyPart><texture>BionicIcons/BodyParts/SecondaryHeart</texture><nameContains>Abd_SecondHeart</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Abd_ThirdLung</defName><bodyPart>BodyCavity1</bodyPart><texture>BionicIcons/BodyParts/Lung</texture><nameContains>Abd_ThirdLung</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Abd_Lymph</defName><bodyPart>BodyCavityA</bodyPart><texture>BionicIcons/BodyParts/LymphaticProliferator</texture><nameContains>Abd_Lymph</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>Abd_NoAge</defName><bodyPart>BodyCavityA</bodyPart><texture>BionicIcons/BodyParts/ImmortalOrgan</texture><nameContains>Abd_NoAge</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>BoneSaber</defName><bodyPart>Leg</bodyPart><texture>BionicIcons/BodyParts/Blade</texture><nameContains>BoneSaber</nameContains></BionicIconsIconDef>
+
+
+</Defs>
