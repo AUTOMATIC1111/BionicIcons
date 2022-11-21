@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- https://steamcommunity.com/sharedfiles/filedetails/?id=1548649032 -->
+
+  <BionicIconsTextureDef>
+    <defName>CyberFaunaAnimArchoProt</defName>
+    <texture>CF/AnimArchoProt</texture>
+    <replacement>BionicIcons/Boxes/AnimalArchotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>CyberFaunaAnimBionicOrg</defName>
+    <texture>CF/AnimBionicOrg</texture>
+    <replacement>BionicIcons/Boxes/AnimalBionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>CyberFaunaAnimBionicProt</defName>
+    <texture>CF/AnimBionicProt</texture>
+    <replacement>BionicIcons/Boxes/AnimalBionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>CyberFaunaAnimSimpleProt</defName>
+    <texture>CF/AnimSimpleProt</texture>
+    <replacement>BionicIcons/Boxes/AnimalProsthetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>CyberFaunaAnimWarProt</defName>
+    <texture>CF/AnimWarProt</texture>
+    <replacement>BionicIcons/Boxes/AnimalBattle</replacement>
+  </BionicIconsTextureDef>
+  
+  <BionicIconsIconDef><defName>CFBattleAniHead</defName><bodyPart>Head</bodyPart><texture>BionicIcons/BodyParts/Gear</texture><nameContains>CFBattleAni</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>CFBattleAniNeck</defName><bodyPart>Neck</bodyPart><texture>BionicIcons/BodyParts/Gear</texture><nameContains>CFBattleAni</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>CFBattleAniBody</defName><bodyPart>Body</bodyPart><texture>BionicIcons/BodyParts/Gear</texture><nameContains>CFBattleAni</nameContains></BionicIconsIconDef>
+</Defs>

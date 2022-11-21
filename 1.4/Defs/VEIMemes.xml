@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BionicIconsTextureDef>
+    <defName>VEIMemes_Box</defName>
+    <texture>Things/Item/Resource/FleshcrafterBodyPart</texture>
+    <replacement>BionicIcons/Boxes/Fleshcrafted</replacement>
+  </BionicIconsTextureDef>
+</Defs>
