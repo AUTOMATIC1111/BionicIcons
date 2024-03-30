@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BionicIconsTextureDef>
+    <defName>YAPE_Box</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <replacement>BionicIcons/Boxes/Default</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>YAPE_AdvancedBionic</defName>
+    <texture>Things/Item/Health/MK_HealthItem_AdvancedBionic</texture>
+    <replacement>BionicIcons/Boxes/BionicAdvanced</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>YAPE_Archotech</defName>
+    <texture>Things/Item/Health/MK_HealthItem_Archotech</texture>
+    <replacement>BionicIcons/Boxes/Archotech2</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>YAPE_Bionic</defName>
+    <texture>Things/Item/Health/MK_HealthItem_Bionic</texture>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>YAPE_Organic</defName>
+    <texture>Things/Item/Health/MK_HealthItem_Organic</texture>
+    <replacement>BionicIcons/Boxes/Organic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>YAPE_Ultratech</defName>
+    <texture>Things/Item/Health/MK_HealthItem_Ultratech</texture>
+    <replacement>BionicIcons/Boxes/Ultratech</replacement>
+  </BionicIconsTextureDef>
+</Defs>

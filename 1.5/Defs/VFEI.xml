@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BionicIconsTextureDef>
+    <defName>VFEIBox</defName>
+    <texture>Things/Item/HealthItemInsectoid</texture>
+    <replacement>BionicIcons/Boxes/Insectoid</replacement>
+  </BionicIconsTextureDef>
+  
+  <BionicIconsIconDef><defName>VFEIPheromone</defName><bodyPart>Neck</bodyPart><texture>BionicIcons/BodyParts/Molecule</texture><nameContains>Pheromone</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>VFEISynapticCerebellum</defName><bodyPart>Brain</bodyPart><texture>BionicIcons/BodyParts/Brain</texture><nameContains>Cerebellum</nameContains></BionicIconsIconDef>
+  <BionicIconsIconDef><defName>VFEIJellySac</defName><bodyPart>Torso</bodyPart><texture>BionicIcons/BodyParts/Drop</texture><nameContains>JellySac</nameContains></BionicIconsIconDef>
+
+</Defs>
