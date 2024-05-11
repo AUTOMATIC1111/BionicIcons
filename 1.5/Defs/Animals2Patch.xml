@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BionicIconsTextureDef>
+    <defName>animal2Base</defName>
+    <texture>Things/Item/Health/HealthItemAnimal</texture>
+    <replacement>BionicIcons/Boxes/Animal</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>animal2Prosthetic</defName>
+    <texture>Things/Item/Health/HealthItemAnimalProsthetic</texture>
+    <replacement>BionicIcons/Boxes/AnimalProsthetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>animal2Surrogate</defName>
+    <texture>Things/Item/Health/HealthItemAnimalSurrogate</texture>
+    <replacement>BionicIcons/Boxes/AnimalSurrogate</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>animal2Bionic</defName>
+    <texture>Things/Item/Health/HealthItemAnimalBionic</texture>
+    <replacement>BionicIcons/Boxes/AnimalBionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>animal2Synthetic</defName>
+    <texture>Things/Item/Health/HealthItemAnimalSynthetic</texture>
+    <replacement>BionicIcons/Boxes/AnimalSynthetic</replacement>
+  </BionicIconsTextureDef>  
+</Defs>
